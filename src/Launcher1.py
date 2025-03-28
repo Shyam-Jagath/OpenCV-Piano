@@ -9,8 +9,8 @@ RIGHT_HAND_NOTES = ['A4', 'B4', 'C5', 'D5', 'E5']
 
 # Webcam settings
 cap = cv2.VideoCapture(0)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1024)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 768)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 720)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 # Mediapipe hand tracking with support for two hands
 mp_hands = mp.solutions.hands
